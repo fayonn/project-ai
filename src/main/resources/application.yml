@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        password: root
+        url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/music_db?useUnicode=true&serverTimezone=UTC
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+upload:
+    path: C:\Users\User\Desktop\demo\src\main\resources\img
